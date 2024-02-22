@@ -9,7 +9,7 @@ import SwiftUI
 
 class UserData: ObservableObject {
     @Published var username: String = ""
-    // Una variable publicada notifica a la vista que la variabl ha cambiado de valor
+    // Una variable publicada notifica a la vista que la variable ha cambiado de valor
 }
 
 struct ContentView: View {
